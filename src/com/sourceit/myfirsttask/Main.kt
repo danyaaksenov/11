@@ -1,9 +1,14 @@
 package com.sourceit.myfirsttask
 
 fun main(args: Array<String>) {
-    println("Hello world!")
-    println("Hello world!")
-    println("Hello esf!")
+    var a = 5
+    var b = 4
+    var c = 6
 
-    println("Hello world!")
+        if (a > b && c > b)
+        println(a * a + c * c)
+        else if (c > a)
+        println(b * b + c * c)
+        else
+        println(b * b + a * a)
 }
